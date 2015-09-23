@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-Odot::Application.config.session_store :cookie_store, key: '_odot_session'
+RailsToDo::Application.config.session_store :cookie_store, key: '_RailsToDo_session'

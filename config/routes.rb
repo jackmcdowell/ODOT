@@ -1,4 +1,4 @@
-Odot::Application.routes.draw do
+RailsToDo::Application.routes.draw do
   get "/login" => "user_sessions#new", as: :login
   delete "/logout" => "user_sessions#destroy", as: :logout
 
